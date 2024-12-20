@@ -231,7 +231,7 @@ function App() {
               {isPaused ? <Play size={20} className="dark:text-white" /> : <Pause size={20} className="dark:text-white" />}
             </button>
           </div>
-          <p className="text-gray-600 dark:text-gray-300 mt-2">Find five 5-letter words about: {currentSet.theme}</p>
+          <p className="text-gray-600 dark:text-gray-300 mt-2">Find five 5-letter words about: <b>{currentSet.theme}</b></p>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Set {currentSetIndex + 1} of {wordSets.length}</p>
           
           <div className="flex justify-center gap-2 mt-4">
