@@ -5,237 +5,294 @@ export interface WordSet {
 }
 
 export const wordSets: WordSet[] = [
-  // Existing sets remain unchanged
   {
-    id: 'fruits',
-    theme: 'Fruits',
-    words: ['APPLE', 'MANGO', 'PEACH', 'GRAPE', 'LEMON']
+    "id": "animals",
+    "theme": "Animals",
+    "words": ["TIGER", "SHEEP", "SNAKE", "MOUSE", "OTTER"] 
   },
   {
-    id: 'space',
-    theme: 'Space',
-    words: ['EARTH', 'VENUS', 'PLUTO', 'COMET', 'ORBIT']
+    "id": "colors",
+    "theme": "Colors",
+    "words": ["BLACK", "BROWN", "GREEN", "WHITE", "ROYAL"] 
   },
   {
-    id: 'ocean',
-    theme: 'Ocean Life',
-    words: ['SHARK', 'WHALE', 'CORAL', 'CLAMS', 'SQUID']
+    "id": "bodyParts",
+    "theme": "Body Parts",
+    "words": ["BRAIN", "HEART", "THUMB", "TEETH", "FLESH"] 
   },
   {
-    id: 'birds',
-    theme: 'Birds',
-    words: ['EAGLE', 'HAWKS', 'CRANE', 'ROBIN', 'OWLET']
+    "id": "weatherNature",
+    "theme": "Weather/Nature",
+    "words": ["STORM", "CLOUD", "FROST", "STEAM", "WATER"] 
   },
   {
-    id: 'colors',
-    theme: 'Colors',
-    words: ['GREEN', 'BLACK', 'WHITE', 'BROWN', 'PEACH']
+    "id": "emotions",
+    "theme": "Emotions",
+    "words": ["ANGRY", "HAPPY", "PROUD", "SPITE", "SHAME"] 
   },
   {
-    id: 'sports',
-    theme: 'Sports',
-    words: ['CHESS', 'RUGBY', 'POKER', 'SKATE', 'CLIMB']
+    "id": "actionsVerbs",
+    "theme": "Actions/Verbs",
+    "words": ["SLEEP", "SPEAK", "TEACH", "THROW", "WRITE"] 
   },
   {
-    id: 'music',
-    theme: 'Musical Terms',
-    words: ['TEMPO', 'SCALE', 'CHORD', 'NOTES', 'SHARP']
+    "id": "buildingStructureParts",
+    "theme": "Building/Structure Parts",
+    "words": ["TOWER", "FLOOR", "SHELF", "VAULT", "STORE"] 
   },
   {
-    id: 'weather',
-    theme: 'Weather',
-    words: ['STORM', 'CLOUD', 'SUNNY', 'WINDY', 'FROST']
+    "id": "timeRelated",
+    "theme": "Time-related",
+    "words": ["EARLY", "NIGHT", "MONTH", "TODAY", "CLOCK"] 
   },
   {
-    id: 'garden',
-    theme: 'Garden',
-    words: ['PLANT', 'SEEDS', 'BLOOM', 'GRASS', 'TREES']
+    "id": "foodDrink",
+    "theme": "Food & Drink",
+    "words": ["BREAD", "CREAM", "SUGAR", "FRUIT", "FLOUR"] 
   },
   {
-    id: 'kitchen',
-    theme: 'Kitchen Items',
-    words: ['PLATE', 'SPOON', 'KNIFE', 'GLASS', 'BOWLS']
+    "id": "movementWords",
+    "theme": "Movement Words",
+    "words": ["SLIDE", "SWING", "FLOAT", "CRAWL", "DRIFT"] 
   },
   {
-    id: 'science',
-    theme: 'Science Terms',
-    words: ['ATOMS', 'CELLS', 'FORCE', 'LIGHT', 'WAVES']
+    "id": "musicSound",
+    "theme": "Music/Sound",
+    "words": ["PIANO", "MUSIC", "NOISE", "SOUND", "VOCAL"] 
   },
   {
-    id: 'emotions',
-    theme: 'Emotions',
-    words: ['HAPPY', 'ANGRY', 'SMILE', 'LAUGH', 'PROUD']
+    "id": "negativeConcepts",
+    "theme": "Negative Concepts",
+    "words": ["SHAME", "BLAME", "ANGER", "CRASH", "GUILT"] 
   },
   {
-    id: 'clothes',
-    theme: 'Clothing',
-    words: ['SHIRT', 'PANTS', 'SHOES', 'SOCKS', 'DRESS']
+    "id": "businessWorkTerms",
+    "theme": "Business/Work Terms",
+    "words": ["TRADE", "AUDIT", "STAKE", "ASSET", "AWARD"] 
   },
   {
-    id: 'animals',
-    theme: 'Farm Animals',
-    words: ['HORSE', 'SHEEP', 'GOATS', 'GEESE', 'DUCKS']
+    "id": "sharpDangerousThings",
+    "theme": "Sharp/Dangerous Things",
+    "words": ["BLADE", "SWORD", "KNIFE", "ARROW", "SHARP"] 
   },
   {
-    id: 'school',
-    theme: 'School Classroom Items',
-    words: ['BOOKS', 'BOARD', 'RULER', 'CHALK', 'PAPER']
+    "id": "lightVisionRelated",
+    "theme": "Light/Vision Related",
+    "words": ["FLASH", "SHINE", "LIGHT", "BLIND", "SPARK"] 
   },
   {
-    id: 'travel',
-    theme: 'Travel',
-    words: ['PLANE', 'TRAIN', 'SHIPS', 'HOTEL', 'BEACH']
+    "id": "waterRelated",
+    "theme": "Water Related",
+    "words": ["OCEAN", "BEACH", "WATER", "STEAM", "SHORE"] 
   },
   {
-    id: 'dessert',
-    theme: 'Desserts',
-    words: ['CAKES', 'CANDY', 'SWEET', 'FUDGE', 'CREAM']
+    "id": "metalMaterials",
+    "theme": "Metal/Materials",
+    "words": ["STEEL", "METAL", "GLASS", "STONE", "BRASS"] 
   },
   {
-    id: 'tools',
-    theme: 'Tools',
-    words: ['DRILL', 'SCREW', 'PLIER', 'WRECK', 'GRIND']
+    "id": "communication",
+    "theme": "Communication",
+    "words": ["SPEAK", "WRITE", "TEACH", "VOICE", "MEDIA"] 
   },
   {
-    id: 'nature',
-    theme: 'Nature',
-    words: ['RIVER', 'LAKES', 'HILLS', 'BEACH', 'WOODS']
+    "id": "militaryCombatTerms",
+    "theme": "Military/Combat Terms",
+    "words": ["FIGHT", "TROOP", "GUARD", "REBEL", "SWORD"] 
   },
   {
-    id: 'time',
-    theme: 'Time Related',
-    words: ['CLOCK', 'HOURS', 'WEEKS', 'MONTH', 'YEARS']
+    "id": "measurementSize",
+    "theme": "Measurement/Size",
+    "words": ["LARGE", "SMALL", "WIDTH", "HEAVY", "SCALE"] 
   },
   {
-    id: 'metals',
-    theme: 'Metal related words',
-    words: ['STEEL', 'BRASS', 'SILVER','ALLOY', 'METAL']
+    "id": "travelRelated",
+    "theme": "Travel Related",
+    "words": ["ROUTE", "TRACK", "TRAIN", "PLANE", "BRING"] 
   },
   {
-    id: 'jobs',
-    theme: 'Professions',
-    words: ['NURSE', 'PILOT', 'TEACH', 'GUARD', 'CLERK']
+    "id": "thinkingWords",
+    "theme": "Thinking Words",
+    "words": ["THINK", "LEARN", "SOLVE", "STUDY", "PROOF"] 
   },
   {
-    id: 'house',
-    theme: 'House Parts',
-    words: ['WALLS', 'DOORS', 'FLOOR', 'STEPS', 'ROOMS']
+    "id": "paperWritingRelated",
+    "theme": "Paper/Writing Related",
+    "words": ["PRINT", "PAPER", "INDEX", "SHEET", "BRAND"] 
   },
   {
-    id: 'space2',
-    theme: 'More Space',
-    words: ['STARS', 'MOONS', 'SOLAR', 'SPACE', 'LIGHT']
+    "id": "spacePosition",
+    "theme": "Space/Position",
+    "words": ["ABOVE", "BELOW", "UNDER", "OUTER", "AHEAD"] 
   },
   {
-    id: 'computer',
-    theme: 'Computing',
-    words: ['MOUSE', 'CLICK', 'PRINT', 'DRIVE', 'BYTES']
+    "id": "sportsCompetition",
+    "theme": "Sports/Competition",
+    "words": ["MATCH", "SCORE", "SPORT", "TRACK", "TEAMS"] 
   },
   {
-    id: 'dance',
-    theme: 'Dance Styles',
-    words: ['WALTZ', 'SWING', 'SALSA', 'TANGO', 'SAMBA']
-  },
-  
-  // New sets (all words verified to be exactly 5 letters)
-  {
-    id: 'herbs',
-    theme: 'Herbs & Spices',
-    words: ['BASIL', 'THYME', 'CUMIN', 'CLOVE', 'CHIVE']
+    "id": "houseBuildingParts",
+    "theme": "House/Building Parts",
+    "words": ["DOORS", "SHELF", "STORE", "HOUSE", "FLOOR"] 
   },
   {
-    id: 'cards',
-    theme: 'Card Games',
-    words: ['POKER', 'BRIDGE', 'HEARTS', 'SPADE', 'TRUMP']
+    "id": "clothingFashion",
+    "theme": "Clothing/Fashion",
+    "words": ["SHIRT", "DRESS", "STEEL", "WATCH", "CROWN"] 
   },
   {
-    id: 'greek',
-    theme: 'Greek Letters',
-    words: ['ALPHA', 'DELTA', 'SIGMA', 'OMEGA', 'THETA']
+    "id": "leadershipPower",
+    "theme": "Leadership/Power",
+    "words": ["QUEEN", "CHIEF", "MAJOR", "NOBLE", "POWER"] 
   },
   {
-    id: 'bones',
-    theme: 'Human Bones',
-    words: ['SKULL', 'SPINE', 'FEMUR', 'TIBIA', 'ULNAR']
+    "id": "moneyValueRelated",
+    "theme": "Money/Value Related",
+    "words": ["WORTH", "PRICE", "VALUE", "SPEND", "MONEY"] 
   },
   {
-    id: 'chess',
-    theme: 'Chess Terms',
-    words: ['CHECK', 'QUEEN', 'BOARD', 'STALE', 'PIECE']
+    "id": "containerWords",
+    "theme": "Container Words",
+    "words": ["PLATE", "SHELF", "VAULT", "BOOTH", "CHEST"] 
   },
   {
-    id: 'pizza',
-    theme: 'Pizza Toppings',
-    words: ['OLIVE', 'ONION', 'BACON', 'SAUCE', 'CRUST']
+    "id": "beautyAppearance",
+    "theme": "Beauty/Appearance",
+    "words": ["SHINE", "GRACE", "CHARM", "GLOW", "CLEAR"] 
   },
   {
-    id: 'money',
-    theme: 'Finance',
-    words: ['STOCK', 'TRADE', 'PRICE', 'MONEY', 'SHARE']
+    "id": "roundThings",
+    "theme": "Round Things",
+    "words": ["GLOBE", "WHEEL", "CROWN", "PEARL", "CLOCK"] 
   },
   {
-    id: 'solar',
-    theme: 'Solar System',
-    words: ['EARTH', 'COMET', 'VENUS', 'TITAN', 'SOLAR']
+    "id": "toolsUsefulItems",
+    "theme": "Tools/Useful Items",
+    "words": ["KNIFE", "BRAKE", "PHONE", "WATCH", "GUARD"] 
   },
   {
-    id: 'beach',
-    theme: 'Beach Items',
-    words: ['TOWEL', 'SHELL', 'WAVES', 'OCEAN', 'SHORE']
+    "id": "earthGroundRelated",
+    "theme": "Earth/Ground Related",
+    "words": ["EARTH", "STONE", "GRASS", "PLANT", "RURAL"] 
   },
   {
-    id: 'japan',
-    theme: 'Japan',
-    words: ['SUSHI', 'MOCHI', 'BENTO', 'TOKYO', 'MANGA']
+    "id": "negativeStates",
+    "theme": "Negative States",
+    "words": ["ANGRY", "TIRED", "UPSET", "HARSH", "ROUGH"] 
   },
   {
-    id: 'paint',
-    theme: 'Art Supplies',
-    words: ['PAINT', 'BRUSH', 'EASEL', 'COLOR', 'PAPER']
+    "id": "fastQuickWords",
+    "theme": "Fast/Quick Words",
+    "words": ["RAPID", "QUICK", "SPEED", "FLASH", "SWIFT"] 
   },
   {
-    id: 'magic',
-    theme: 'Magic & Spells',
-    words: ['SPELL', 'WANDS', 'CHARM', 'MAGIC', 'POTION']
+    "id": "openingClosing",
+    "theme": "Opening/Closing",
+    "words": ["CLOSE", "BREAK", "SPLIT", "CRACK", "SOLID"] 
   },
   {
-    id: 'bread',
-    theme: 'Bread Types',
-    words: ['WHEAT', 'BAGEL', 'TOAST', 'SCONE', 'CRUST']
+    "id": "medicalHealth",
+    "theme": "Medical/Health",
+    "words": ["NURSE", "BRAIN", "HEART", "BLOOD", "WOUND"] 
   },
   {
-    id: 'movie',
-    theme: 'Movie Terms',
-    words: ['SCENE', 'ACTOR', 'STAGE', 'DRAMA', 'SCORE']
+    "id": "buildingCreating",
+    "theme": "Building/Creating",
+    "words": ["BUILD", "CRAFT", "FORGE", "MAKES", "MOUNT"] 
   },
   {
-    id: 'sleep',
-    theme: 'Sleep Related',
-    words: ['DREAM', 'SNORE', 'WAKES', 'SLEEP', 'NIGHT']
+    "id": "growthChangeRelated",
+    "theme": "Growth/Change Related",
+    "words": ["ADAPT", "BREED", "BLOOM", "GROW", "RAISE"] 
   },
   {
-    id: 'sport2',
-    theme: 'Sports Gear',
-    words: ['SHOES', 'SOCKS', 'GLOVE', 'BOOTS', 'GUARD']
+    "id": "officeWorkTerms",
+    "theme": "Office/Work Terms",
+    "words": ["STAFF", "DRAFT", "PAPER", "MEDIA", "INPUT"] 
   },
   {
-    id: 'music2',
-    theme: 'Music Terms',
-    words: ['PIANO', 'DRUMS', 'FLUTE', 'BRASS', 'SOUND']
+    "id": "cleanOrderWords",
+    "theme": "Clean/Order Words",
+    "words": ["CLEAR", "CLEAN", "SWEEP", "PLAIN", "SPARE"] 
   },
   {
-    id: 'candy',
-    theme: 'Candy Types',
-    words: ['SWEET', 'TAFFY', 'FUDGE', 'SUGAR', 'CANDY']
+    "id": "timePeriods",
+    "theme": "Time Periods",
+    "words": ["NIGHT", "MONTH", "EARLY", "TODAY", "FIRST"] 
   },
   {
-    id: 'drink',
-    theme: 'Beverages',
-    words: ['WATER', 'JUICE', 'CIDER', 'SHAKE', 'DRINK']
+    "id": "liquids",
+    "theme": "Liquids",
+    "words": ["BLOOD", "WATER", "JUICE", "CREAM", "STEAM"] 
   },
   {
-    id: 'trees',
-    theme: 'Tree Types',
-    words: ['MAPLE', 'BIRCH', 'CEDAR', 'EBONY', 'BEECH']
+    "id": "strongPowerful",
+    "theme": "Strong/Powerful",
+    "words": ["BRAVE", "FORCE", "MIGHT", "HEAVY", "GRAND"] 
+  },
+  {
+    "id": "artCreative",
+    "theme": "Art/Creative",
+    "words": ["CRAFT", "PAINT", "DRAW", "STAGE", "DRAMA"] 
+  },
+  {
+    "id": "pathDirection",
+    "theme": "Path/Direction",
+    "words": ["ROUTE", "TRAIL", "GUIDE", "TRACK", "NORTH"] 
+  },
+  {
+    "id": "crimeLegal",
+    "theme": "Crime/Legal",
+    "words": ["STEAL", "CRIME", "LEGAL", "CIVIL", "ERROR"] 
+  },
+  {
+    "id": "shapeRelated",
+    "theme": "Shape Related",
+    "words": ["ROUND", "SHARP", "SLOPE", "CURVE", "SPINE"] 
+  },
+  {
+    "id": "joiningWords",
+    "theme": "Joining Words",
+    "words": ["MERGE", "UNITE", "BLEND", "BOUND", "MATCH"] 
+  },
+  {
+    "id": "energyForceTerms",
+    "theme": "Energy/Force Terms",
+    "words": ["POWER", "FORCE", "SPARK", "STEAM", "BLAST"] 
+  },
+  {
+    "id": "protectionWords",
+    "theme": "Protection Words",
+    "words": ["GUARD", "SHELF", "COVER", "SHIELD", "SPARE"] 
+  },
+  {
+    "id": "knowledgeWords",
+    "theme": "Knowledge Words",
+    "words": ["LEARN", "TEACH", "STUDY", "PROVE", "SENSE"] 
+  },
+  {
+    "id": "weatherConditions",
+    "theme": "Weather Conditions",
+    "words": ["STORM", "FROST", "CLOUD", "STEAM", "CLEAR"] 
+  },
+  {
+    "id": "speakingVoice",
+    "theme": "Speaking/Voice",
+    "words": ["SHOUT", "SPEAK", "VOICE", "LAUGH", "QUIET"] 
+  },
+  {
+    "id": "colorLightQuality",
+    "theme": "Color/Light Quality",
+    "words": ["LIGHT", "SHINE", "FLASH", "CLEAR", "BLANK"] 
+  },
+  {
+    "id": "waterMovement",
+    "theme": "Water Movement",
+    "words": ["FLOAT", "SPRAY", "STEAM", "CRASH", "SURGE"] 
+  },
+  {
+    "id": "forestNature",
+    "theme": "Forest/Nature",
+    "words": ["PLANT", "GROVE", "GREEN", "TRAIL", "BEACH"] 
   }
-];
+]
