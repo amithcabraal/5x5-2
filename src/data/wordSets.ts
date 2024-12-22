@@ -1,4 +1,4 @@
-port interface WordSet {
+export interface WordSet {
   id: string;
   theme: string;
   words: string[];
